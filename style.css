@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-content {
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 30%;
+}
+.nav-botton {
+    height: 25px;
+    width: 120px;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 4px;
+    margin: 80px;
+}
+.box {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+}
+.image {
+    height: 100%;
+    width: 50%;
+    color: white;
+    border: 3px solid white;
+    background-image: url(form-image.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    margin: 20px;
+}
+.heading {
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px;
+}
+input {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid gray;
+}
+.forgot {
+    color: rgb(0, 119, 255);
+    font-size: 0.85rem;
+}
+.login-botton {
+    height: 30px;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
